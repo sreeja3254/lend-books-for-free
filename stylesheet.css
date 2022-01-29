@@ -1,0 +1,53 @@
+.{
+    padding:0;
+    margin:0;
+}.border{
+    background-color: blue;
+    width:100%;
+    height:10%;
+}
+.border h1{
+    text-align: center;
+    color:white;
+    line-height: 60px;
+}
+.reference h2{
+    color: red;
+    margin-left: 40px;
+
+}
+.box1{
+    background-color: black;
+    position: absolute;
+    top:35%;
+    left:45%;
+    width:300px;
+    height:250px;
+}
+.box2{
+    background-color: red;
+    position: absolute;
+    top:35%;
+    left:60%;
+    width:230px;
+    height:250px;
+}
+#heading{
+    position: absolute;
+    top:27%;left:55%;
+}
+.li1{
+    padding: 0;
+   }
+.li1 li{
+    display: block;
+    color:white;
+    margin-top: 35px;
+    margin-left:15px;
+    padding-left: 20px;
+}
+.li2 li{
+    display: block;
+    color:white;
+    margin-top: 34px;
+}

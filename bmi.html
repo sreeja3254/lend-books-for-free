@@ -1,0 +1,47 @@
+<html>
+<head>
+    <!DOCTYPE html>
+        <title>BMI Calculator</title>
+        <link href="stylesheet.css" rel="stylesheet"/>
+</head>
+<body>
+        <div class="border">
+          <h1>BMI CALCULATOR</h1>
+        </div>
+        <div class="reference">
+            <h2>Reference:</h2>
+            <img src="refer.jpg" alt="reference" width="550" height="590">
+        </div>
+        
+           <h2 id="heading"style="color: brown;">CALCULATOR</h2>
+        
+        <div class="box1">
+            <ul class="li1">
+                <li>HEIGHT(in feet)</li>
+                <li>HEIGHT(in inches)</li>
+                <li>WEIGHT(in kgs)</li>
+                <li><button onclick="result()">CALCULATE</button></li>
+            </ul>
+        </div>
+            <div class="box2">
+                <ul class="li2">
+                <li><input type="text" id="feet"></li>
+                <li><input type="text" id="inches"></li>
+                <li><input type="text" id="weight"></li>
+                <li><input type="text" id="result"></li>
+            </ul></div>
+        </body>
+        <script>
+            function result()
+{var x=document.getElementById("feet").value;
+var y=document.getElementById("inches").value;
+var z=document.getElementById("weight").value;
+var meter=parseInt(x)*0.3048+parseInt(y)*0.0254;
+
+var w=parseInt(z);
+
+var r=w/(meter*meter);
+
+document.getElementById("result").value=r.toString(10);}
+        </script>
+</html>
