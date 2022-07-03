@@ -1,0 +1,14 @@
+
+.main{
+    position: absolute;
+    text-align: center;
+    top:30%;
+    left:38%;
+    width: 400px;
+    height:350px;
+    
+    background-color: aqua;
+}
+.table{
+    padding-left: 50px;
+}
