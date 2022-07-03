@@ -1,0 +1,2 @@
+# lend-books-for-free
+This project is about lending books for free who are in need in an university.Juniors can lend books from seniors.Every course has an unique course code.Seniors who have written notes of any course can add that book in database.In the database i have created tables which contains hostel details,contact details of a person who added books in the database.So whoever wants notes can reach out the person by contacting the person who added the book.     
